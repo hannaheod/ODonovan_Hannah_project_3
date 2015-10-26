@@ -1,0 +1,366 @@
+html,body{
+	height:100%;
+	width:100%;
+}
+
+/*rotating image ID and class */
+#rotating-item-wrapper {
+    position: relative;
+}
+
+.rotating-item {
+    display: none;
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 5px;
+    left: 0;
+    max-width: 215px;
+    height: 215px; 
+}
+
+a {
+    text-decoration: none; 
+    decoration: none; 
+    color: #564132;
+    font-size: 1.2em;
+    font-weight: 100;
+    font-family:  sans-serif;
+    line-height: 70%;
+}
+
+.galleryHEAD a {
+    text-decoration: none; 
+    decoration: none; 
+    color: #564132;
+    font-size: 1em;
+    font-weight: 800;
+    font-family: "Georgia", Times New Roman, Serif;
+    line-height: 100%;
+}
+
+.container{
+    width:60%;
+}
+
+.mainWrapper{
+	min-height: 100%;
+}
+
+#instafeed a {
+    webkit-box-flex: 1.5;
+    border: 0vw solid transparent;
+    padding-top: 30px;
+}
+
+
+.twitter-timeline {
+    align: center;
+    font-family: "Georgia";
+    
+}
+
+.spaces {
+    height:  5px;
+    width:100px;
+    background-color:white;
+    
+}
+
+#instafeed {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    height:  500px;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map {
+    margin-bottom: 0px;
+    height:  400px;
+    background-image: url(../img/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cup {
+    margin-bottom: 0px;
+    height:  400px;
+    background-image: url(../img/formpage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    font-size: 2em;
+    font-family: "Georgia",Times New Roman,serif;
+    text-align:justify;
+}
+
+h2 {
+    font-size: 1em;
+    font-family:"Georgia", Times New Roman, serif;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 0.8em;
+    font-family: "Georgia", Times New Roman, serif;
+    color: #c1c1c1;
+    line-height: 0%;   
+}
+
+h4 {
+    font-size: 2.8em;
+    font-family: "Georgia",Times New Roman,serif;
+    text-align:justify;
+}
+
+p {
+    font-family: "Georgia", Times New Roman, serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+
+.hours {
+    padding-top: 10px;   
+}
+
+.contact {
+ padding-left: 35px;   
+}
+
+.line {
+    height: 0.5px ;
+    background-color: #c1c1c1;
+    width: 100%;  
+}
+
+.linetwo {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 0.5px ;
+    background-color: #c1c1c1;
+    width: 100%;  
+}
+
+.linethree {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    height: 0.5px ;
+    background-color: #c1c1c1;
+    width: 100%;  
+}
+
+.menubar{
+    margin-left: 40px;  
+    width: 750px 
+}
+
+.bodyWrapper{
+    overflow:show;
+	min-height:600px;
+}
+
+.footer{
+	border:1px solid black;
+	height:60px;
+}
+
+.header{
+	height:100px;
+}
+
+.menuLinks{
+	height:10px;
+	margin-right: 0px;
+	margin-left:0px;
+	max-width:  200px;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	padding-top: 0px;
+	text-align: center;
+}
+
+.logoImg{
+	margin-top: 15px;
+    margin-bottom: 5px;
+    max-height: 105px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    position: center;
+}
+
+.menuSm{
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+    margin-right:50px;
+}
+
+.galleryBody{
+    padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.hello {
+    padding-bottom: 50px;
+}
+
+.galleryHEAD{
+    padding-top: 15px;    
+}
+
+.imageone{
+    background-image: url(../img/imageone.png);
+    max-width: 220px;
+    background-position: center;
+    height: 220px;
+}
+
+.meh{
+    max-width: 220px;
+    background-position: center;
+    background-color: #ffffff,0;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 220px;
+    z-index: 100;
+}
+
+.imagetwo{
+    background-image: url(../img/imagetwo.png);
+    max-width: 220px;
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.imagethree{
+    background-image: url(../img/imagethree.png);
+    max-width: 220px;
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.imagefour{
+    background-image: url(../img/imagefour.png);
+    max-width: 220px;
+    background-position: center;
+     background-size: contain; 
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.fbimage{
+    background-image: url(../img/imagethree.png);
+    max-width: 220px;
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.coffeemenu{
+    background-image: url(../img/coffeemenu.png);
+    max-width: 220px;
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+
+.aboutus{
+    background-image: url(../img/aboutus.png);
+    max-width: 300px;
+    background-position: center;
+     background-size: contain; 
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+
+.infotext{
+    height: 300px;
+    padding-right: 40px;
+}
+
+.pickuptext{
+   width: 100%;
+    padding-top: 10px;
+    padding-right: 285px;
+}
+
+.pickuptext h1 {
+    line-height: 150%;
+}
+
+.pickuptext p {
+    line-height: 150%;
+    font-size: 1.1em;
+}
+
+.pickuptext a {
+    line-height: 150%;
+    font-size: 1.1em;
+    text-underline-position: below;
+    font-family: "Georgia",Times New Roman,serif;
+}
+
+.table {
+    margin-top: 50px;
+}
+
+label {
+    width:150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input {
+    width:200px;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.formRow {
+    margin-bottom:20px;
+}
+
+.checkbox {
+    padding-bottom: 20px;
+}
+
+.order {
+    margin-top: 50px;
+    width: 60%;
+}
+
+footer{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

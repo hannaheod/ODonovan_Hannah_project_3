@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>- STORIES -</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myStyle.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/Icon.png">
+    
+    <script type="text/javascript" src="js/instafeedmod.js"></script>
+    
+    <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'storiescoffeeee',
+        clientId: '3cda7108dd4242b1b1bd49dd4700c8b0',
+        limit: 24,
+        loop: false
+    //    resolution: 'low_resolution',
+       
+    });
+    feed.run();
+</script>
+    
+
+
+
+</head>
+
+<body>
+
+    <div class="container bodyWrapper">
+
+        <div class="container-fluid mainWrapper">
+            <div class="row headerBar">
+                <div class=" header noPadding ">
+                    <header>
+                        <div class="col-sm-3 col-md-2 col-lg-3 header">
+                            <a href="index.html">
+                                <img src="img/logo.png" class="img-responsive logoImg">
+                            </a>
+                        </div>
+                        <!-- menuBar -->
+                        <div class="col-md-6 col-lg-9">
+                            <div class="menubar">
+                                <div class="row hidden-sm hidden-xs">
+
+                                    <!--           <div class="hidden-sm hidden-xs col-md-2 menuLinks border"><a href= https://www.facebook.com/storiesespressobar?fref=ts> <p>Home</P> </a> </div>
+-->
+                                    <div class="hidden-sm hidden-xs col-md-4 menuLinks">
+                                        <a href="about.html">
+                                        ABOUT
+                                    </a>
+                                        <h3> Our Story </h3>
+                                    </div>
+                                    <div class="hidden-sm hidden-xs col-md-4 menuLinks">
+                                        <a href=pickup.html>
+                                   GALLERY
+                                    </a>
+                                        <h3>Get a Feel for the Place </h3>
+                                    </div>
+                                    <div class="hidden-sm hidden-xs col-md-4 menuLinks">
+                                        <a href="contact.html">
+                                        CONTACT
+                                    </a>
+                                        <h3> Our Locations </h3>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- menubar Small Res -->
+                            <div class="col-xs-12 col-sm-6 hidden-md hidden-lg border">
+                                <!--                <div class="row menuSm"> <a href=  https://www.facebook.com/storiesespressobar?fref=ts> <p>Home</P> </a> </div>
+-->
+                                <div class="row menuSm">
+                                    <a href=about.html>
+                                ABOUT
+                            </a>
+                                </div>
+                                <div class="row menuSm">
+                                    <a href=pickup.html>
+                                GALLERY
+                            </a>
+                                </div>
+                                <div class="row menuSm">
+                                    <a href=contact.html>
+                                CONTACT
+                            </a>
+                                </div>
+
+                            </div>
+                    </header>
+                    </div>
+                </div>
+                 </div>
+
+ 
+
+
+     <div class="row galleryBody">
+                    <div class="line col-md-12"></div>
+                </div>  
+           
+
+        <div class="row hello">
+            <div id="instafeed"></div>
+            
+        </div>
+        </div>
+           
+            
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
